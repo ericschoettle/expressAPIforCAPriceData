@@ -1,0 +1,18 @@
+{
+  "name": "express-api-for-ca-price-data",
+  "version": "1.0.0",
+  "description": "serves data from dynamoDB",
+  "main": "index.js",
+  "dependencies": {
+    "aws-sdk": "^2.465.0",
+    "express": "^4.17.1",
+    "moment": "^2.24.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Eric Schoettle",
+  "license": "ISC"
+}
